@@ -4,36 +4,35 @@
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     text-decoration: none;
-    }
-    :root {
-        --violet: #9356DC;
-        --rose: #FF79DA;
-        --vert: #99E2D0;
+    $color-primary: #9356DC;
+    $color-secondary:#FF79DA;
+    $color-tertiary: #99E2D0;
     }
     .Logo1 {
         font-family: 'Shrikhand', sans-serif;
-        padding: 5% 0 0 25%;
+        padding: 5% 0 0 30%;
         width: 65%;   
     }
     .Localisation {
         background-color: rgb(240, 240, 240);
-        display: flex;
-        justify-content: center;
+        padding-left: 28%;
         box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.5);
-        padding-left: 15%;
+        display:flex;
     }
     input {
         background-color: rgb(240, 240, 240);
         border: none;
         margin: 3%;
         font-weight: bold;
+        font-size: 15px;
     }
     .fa-location-dot {
         margin-top: 4%;
         font-size: 12px;
     }
     .Reservation {
-        background-color: rgb(250, 250, 250);
+        background-color: rgb(245, 245, 245);
+        margin-top: -3%;
     }
     h1 {
         font-size: 20px;
@@ -45,70 +44,143 @@
     .Decouverte {
         color: grey;
         font-size: 15px;
-        padding-left: 30%;
-        text-indent: -12%
+        padding-left: 25%;
+        text-indent: -12%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     .Btn {
         margin: 3% 0 12% 25%;
-        padding: 4%;
+        padding: 2% 5%;
         border-radius: 30px;
-        background-color: #FF79DA;
+        background-color: #9356DC;
         color: white;
-        font-size: 15px;
+        font-size: 13px;
         font-weight: bold;
     }
+    .Choix {
+        margin-bottom: 15%;
+    }
     h2 {
-        padding: 10% 0 2% 4%;
         font-size: 20px;
+        margin-left: 6%;  
     }
     .Restos {
-        counter-reset: li;       
+        counter-reset: li; 
+        margin-left: -3%;      
     }
     .Restos > .RestosChoix {
         list-style-type: none;
-        margin: 6% 0 0 -6%;
-        padding: 8% 15% 8% 5%;
+        margin: 6% 3% 0 0;
+        padding: 8% 10% 8% 5%;
         border-radius: 25px;
-        width: 100%;
-        border: 2px solid rgb(250, 250, 250);
-        background-color: red;
+        width: 93%;
+        border: 2px solid rgb(245, 245, 245);
+        background-color: rgb(245, 245, 245);
         box-shadow: 6px 6px 6px rgba(200, 230, 230);
         position: relative;
         display: flex;
         justify-content: space-evenly; 
-        font-size: 16px;
-        font-weight: bold;       
+        font-size: 12px;
+        font-weight: bold;
+        white-space: nowrap;       
     }
     .Restos > .RestosChoix:before {
         content: counter(li);
         counter-increment:li;
-        border: 2px solid violet;
+        border: 2px solid #9356DC;
         border-radius: 50%;
         padding: 1% 2%;
         font-size: 12px;
-        background-color: violet;
+        background-color: #9356DC;
         color: white;
         position: absolute;
         left: -10px;
+        margin-top: -2%;
     }
     .Choisissez {
         padding-right: 10%;
+        overflow: hidden;
     }
     .fa-mobile-screen-button {
-        padding: 0 8%;
+        padding: 0 5%;
     }
     .fa-store {
         color: #9356DC;
     }
-    .LieuxCartesImg {
-        width: 100%;
-        height: 75%;
-        object-fit: cover;    
-      }
-      .LieuxCartesFigure {
-        border-radius: 20px;
-        border: 3px solid blue;
-        width: 80%;
-        height: 230px;
+    .Lieux {
+        background-color: rgb(245, 245, 245); 
+        padding: 5% 0; 
     }
+    .LieuxCartes {
+        margin: 0 -5%;
+    }
+    .LieuxCartesImgimg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px 20px 0 0;    
+      }
+    .LieuxCartesFigure {
+        border-radius: 20px;
+        width: 80%;
+        height: 190px;
+    }
+    .LieuxCartesImg {
+        position: relative;
+        text-align: right;
+        height: 130px;
+    }
+    .Nouveau {
+        position: absolute;
+        top: 10%;
+        right: 3%;
+        transform: translate(-10%, -3%);
+        border: 2px solid #99E2D0;
+        color: black;
+        font-size: 10px;
+        background-color: #99E2D0;
+        padding: 1%;
+    }
+    .LieuxCartesInfos {
+        background-color: white;
+        margin-top: -11%;
+        border-radius: 0 0 20px 20px;
+        padding-top: 6%;
+    }
+    h3 {
+        font-size: 15px;
+        color: black;
+        margin-top: -4%;
+        padding: 12% 0 0 5%;
+      }
+    .LieuxCartesInfos >p {
+        font-size: 12px;
+        padding: 0 0 7% 5%;
+        color: black;
+        margin-top: -1%;
+      }
+      .fa-heart {
+        display: flex;
+        justify-content: end;
+        margin-top: -8%;
+        padding-right: 5%;
+      }
+      .Footer {
+        background-color: black;
+        color: white;
+      }
+      .Logo2 {
+        width: 35%;
+        padding: 5% 0 0 8%;
+      }
+      .Proposition {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+      }
+      .Contact {
+        color: white;
+      }
 } 

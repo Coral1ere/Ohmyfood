@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheets/normalize.css"/>
+    <link rel="stylesheet" href="./sass/normalize.css"/>
     <style>@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');</style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/fedfbc8e6e.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./stylesheets/style.css"/>
+    <link rel="stylesheet" href="./sass/style.css"/>
     <title>Oh_my_food</title>
 </head>
 <body>
@@ -51,80 +51,80 @@
             <div class="LieuxCartes">
                 <a href="page3.html">
                     <figure class="LieuxCartesFigure">
-                        <img class="LieuxCartesImg" src="Images/La_palette_du_gout.jpg" alt="La palette du goût" />
-                        <figcaption class="LieuxCartesFigcaption">
-                            <div class="LieuxCartesInfos">
-                                <p class="Nouveau">Nouveau</p>
-                                <h3>La palette du goût</h3>
-                                <p>Ménilmontant</p>
-                                <i class="far fa-heart"></i>
+                        <div class="LieuxCartesImg">
+                            <img class="LieuxCartesImgimg" src="Images/La_palette_du_gout.jpg" alt="La palette du goût" />
+                            <div class="Nouveau">Nouveau</div>
                             </div>
-                        </figcaption>
+                            <div class="LieuxCartesInfos">
+                                <h3>La palette du goût</h3>
+                                <i class="far fa-heart"></i>
+                                <p>Ménilmontant</p>
+                            </div>
                     </figure>
                 </a>
             </div>
             <div class="LieuxCartes">
                 <a href="page2.html">
                     <figure class="LieuxCartesFigure">
-                        <img class="LieuxCartesImg" src="Images/La_note_enchantée.jpg" alt="La note enchantée" />
-                        <figcaption class="LieuxCartesFigcaption">
+                        <div class="LieuxCartesImg">   
+                            <img class="LieuxCartesImgimg" src="Images/La_note_enchantée.jpg" alt="La note enchantée" />
+                            <div class="Nouveau">Nouveau</div>
+                        </div>
                             <div class="LieuxCartesInfos">
-                                <p class="Nouveau">Nouveau</p>
                                 <h3>La note enchantée</h3>
-                                <p>Charonne</p>
                                 <i class="far fa-heart"></i>
+                                <p>Charonne</p>
                             </div>
-                        </figcaption>
                     </figure>
                 </a>
             </div>
             <div class="LieuxCartes">
                 <a href="page1.html">
                     <figure class="LieuxCartesFigure">
-                        <img class="LieuxCartesImg" src="Images/A_la_française.jpg" alt="A la francaise" />
-                        <figcaption class="LieuxCartesFigcaption">
+                        <div class="LieuxCartesImg">
+                            <img class="LieuxCartesImgimg" src="Images/A_la_française.jpg" alt="A la francaise" />
+                        </div>
                             <div class="LieuxCartesInfos">
                                 <h3>À la française</h3>
-                                <p>Cité Rouge</p>
                                 <i class="far fa-heart"></i>
+                                <p>Cité Rouge</p>
                             </div>
-                        </figcaption>
                     </figure>
                 </a>
             </div>
-            <div>
+            <div class="LieuxCartes">
                 <a href="page4.html">
                     <figure class="LieuxCartesFigure">
-                        <img class="LieuxCartesImg" src="Images/Le_delice_des_sens.jpg" alt="Le délice des sens" />
-                        <figcaption class="LieuxCartesFigcaption">
+                        <div class="LieuxCartesImg">
+                            <img class="LieuxCartesImgimg" src="Images/Le_delice_des_sens.jpg" alt="Le délice des sens" />
+                        </div>
                             <div class="LieuxCartesInfos">
                                 <h3>Le délice des sens</h3>
-                                <p>Folie-Méricourt</p>
                                 <i class="far fa-heart"></i>
+                                <p>Folie-Méricourt</p>
                             </div>
-                        </figcaption>
                     </figure>
                 </a>
             </div>
         </section>
     </main>
-    <footer>
-        <img src="./Images/ohmyfood.png" class="Logo2" alt="Logo" />
+    <footer class="Footer">
+        <img src="./Images/ohmyfood2.png" class="Logo2" alt="Logo" />
         <div class="BasDePage">
-            <div class="Proposition">
-                <i class="fa-sharp fa-solid fa-utensils"></i>
-                <p>Proposer un restaurant</p>
-            </div>
-            <div class="Partenaire">
-                <i class="fa-solid fa-handshake-angle"></i>
-                <p>Devenir partenaire</p>
-            </div>
-            <div class="Mentions">
-                <p>Mentions légales</p>
-            </div>
-            <div class="Contacts">
-                <a href="mailto:email@exemple.com">Contact</a>
-            </div>
+            <ul class="Proposition">
+                <li class="Contacts1"><i class="fa-sharp fa-solid fa-utensils"></i>
+                <span class="Partenaires">Proposer un restaurant</span></li>
+            </ul>
+            <ul class="Proposition">
+                <li class="Contacts2"><i class="fa-solid fa-handshake-angle"></i>
+                <span class="Partenaires">Devenir partenaire</span></li>
+            </ul>
+            <ul class="Proposition">
+                <li class="Contacts3">Mentions légales</li>
+            </ul>
+            <ul class="Proposition">
+                <li class="Contacts4"><a class="Contact" href="mailto:email@exemple.com">Contact</a></li>
+            </ul>
         </div>
     </footer>    
 </body>
