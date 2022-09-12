@@ -1,0 +1,114 @@
+/* Version mobile */
+@media screen and (max-width: 767px) {
+* {   
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+    :root {
+        --violet: #9356DC;
+        --rose: #FF79DA;
+        --vert: #99E2D0;
+    }
+    .Logo1 {
+        font-family: 'Shrikhand', sans-serif;
+        padding: 5% 0 0 25%;
+        width: 65%;   
+    }
+    .Localisation {
+        background-color: rgb(240, 240, 240);
+        display: flex;
+        justify-content: center;
+        box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.5);
+        padding-left: 15%;
+    }
+    input {
+        background-color: rgb(240, 240, 240);
+        border: none;
+        margin: 3%;
+        font-weight: bold;
+    }
+    .fa-location-dot {
+        margin-top: 4%;
+        font-size: 12px;
+    }
+    .Reservation {
+        background-color: rgb(250, 250, 250);
+    }
+    h1 {
+        font-size: 20px;
+        display: flex;
+        justify-content: center; 
+        text-indent: -15%;
+        padding: 8% 0 1% 15%;
+    }
+    .Decouverte {
+        color: grey;
+        font-size: 15px;
+        padding-left: 30%;
+        text-indent: -12%
+    }
+    .Btn {
+        margin: 3% 0 12% 25%;
+        padding: 4%;
+        border-radius: 30px;
+        background-color: #FF79DA;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    h2 {
+        padding: 10% 0 2% 4%;
+        font-size: 20px;
+    }
+    .Restos {
+        counter-reset: li;       
+    }
+    .Restos > .RestosChoix {
+        list-style-type: none;
+        margin: 6% 0 0 -6%;
+        padding: 8% 15% 8% 5%;
+        border-radius: 25px;
+        width: 100%;
+        border: 2px solid rgb(250, 250, 250);
+        background-color: red;
+        box-shadow: 6px 6px 6px rgba(200, 230, 230);
+        position: relative;
+        display: flex;
+        justify-content: space-evenly; 
+        font-size: 16px;
+        font-weight: bold;       
+    }
+    .Restos > .RestosChoix:before {
+        content: counter(li);
+        counter-increment:li;
+        border: 2px solid violet;
+        border-radius: 50%;
+        padding: 1% 2%;
+        font-size: 12px;
+        background-color: violet;
+        color: white;
+        position: absolute;
+        left: -10px;
+    }
+    .Choisissez {
+        padding-right: 10%;
+    }
+    .fa-mobile-screen-button {
+        padding: 0 8%;
+    }
+    .fa-store {
+        color: #9356DC;
+    }
+    .LieuxCartesImg {
+        width: 100%;
+        height: 75%;
+        object-fit: cover;    
+      }
+      .LieuxCartesFigure {
+        border-radius: 20px;
+        border: 3px solid blue;
+        width: 80%;
+        height: 230px;
+    }
+} 

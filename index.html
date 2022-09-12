@@ -4,55 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="stylesheets/normalize.css"/>
     <style>@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');</style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/fedfbc8e6e.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="./stylesheets/style.css"/>
     <title>Oh_my_food</title>
 </head>
 <body>
     <header>
-        <img id="Logo1" src="./Images/ohmyfood.png" alt="Logo">
+            <img class="Logo1" src="./Images/ohmyfood.png" alt="Logo" />
     </header>
     <main>
-        <form>
+        <form class="Local">
             <p class="Localisation">
                 <i class="fa-solid fa-location-dot"></i>
                 <input type="search" placeholder="Paris, Belleville"/> 
             </p>
         </form>
         <section class="Reservation">
-            <h1>Réservez le menu qui vous convient</h1>
-            <p>Découvrez des restaurants d'exceptions, <br>sélectionnés par nos soins</p>
-            <button class="bouton_explorer">Explorez nos restaurants</button>
+            <h1>Réservez le menu qui<br>vous convient</h1>
+            <p class="Decouverte">Découvrez des restaurants d'exception,<br>sélectionnés par nos soins.</p>
+            <button class="Btn">Explorez nos restaurants</button>
         </section>
+        <section class="Choix">
             <h2>Fonctionnement</h2>
-            <section class="Choix">
-                <div class="Restos">
-                    <form>
-                    <h3>1</h3>
-                    <i class="fa-solid fa-mobile-screen-button"></i>Choisissez un restaurant</form>
-                </div>
-                <div class="Composition">
-                    <form>
-                        <h3>2</h3>
-                        <i class="fas fa-list-ul"></i>Composez votre menu</form>
-                </div>
-                <div class="degustation">
-                    <form>
-                        <h3>3</h3>
-                        <i class="fa-solid fa-store"></i>Degustez au restaurant</form>
-                </div>
+                <ol class="Restos">
+                    <li class="RestosChoix">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <span class="Choisissez">Choisissez un restaurant</span>
+                    </li>
+                    <li class="RestosChoix">
+                        <i class="fa-solid fa-list"></i>
+                        <span class="Choisissez">Composez votre menu</span>
+                    </li>
+                    <li class="RestosChoix">
+                        <i class="fa-solid fa-store"></i>
+                        <span class="Choisissez">Dégustez au restaurant</span>
+                    </li>
+                </ol>
         </section>
         <section class="Lieux">
             <h2>Restaurants</h2>
             <div class="LieuxCartes">
-                <a href="">
+                <a href="page3.html">
                     <figure class="LieuxCartesFigure">
-                        <img class="LieuxCartesImg" src="Images/La_palette_du_gout.jpg" alt="La palette du goût">
+                        <img class="LieuxCartesImg" src="Images/La_palette_du_gout.jpg" alt="La palette du goût" />
                         <figcaption class="LieuxCartesFigcaption">
                             <div class="LieuxCartesInfos">
                                 <p class="Nouveau">Nouveau</p>
@@ -65,9 +64,9 @@
                 </a>
             </div>
             <div class="LieuxCartes">
-                <a href="">
+                <a href="page2.html">
                     <figure class="LieuxCartesFigure">
-                        <img class="LieuxCartesImg" src="Images/La_note_enchantée.jpg" alt="La note enchantée">
+                        <img class="LieuxCartesImg" src="Images/La_note_enchantée.jpg" alt="La note enchantée" />
                         <figcaption class="LieuxCartesFigcaption">
                             <div class="LieuxCartesInfos">
                                 <p class="Nouveau">Nouveau</p>
@@ -80,9 +79,9 @@
                 </a>
             </div>
             <div class="LieuxCartes">
-                <a href="">
+                <a href="page1.html">
                     <figure class="LieuxCartesFigure">
-                        <img class="LieuxCartesImg" src="Images/A_la_française.jpg" alt="A la francaise">
+                        <img class="LieuxCartesImg" src="Images/A_la_française.jpg" alt="A la francaise" />
                         <figcaption class="LieuxCartesFigcaption">
                             <div class="LieuxCartesInfos">
                                 <h3>À la française</h3>
@@ -94,9 +93,9 @@
                 </a>
             </div>
             <div>
-                <a href="">
+                <a href="page4.html">
                     <figure class="LieuxCartesFigure">
-                        <img class="LieuxCartesImg" src="Images/Le_delice_des_sens.jpg" alt="Le délice des sens">
+                        <img class="LieuxCartesImg" src="Images/Le_delice_des_sens.jpg" alt="Le délice des sens" />
                         <figcaption class="LieuxCartesFigcaption">
                             <div class="LieuxCartesInfos">
                                 <h3>Le délice des sens</h3>
@@ -110,14 +109,14 @@
         </section>
     </main>
     <footer>
-        <img id="Logo2" src="./Images/ohmyfood.png" alt="Logo">
+        <img src="./Images/ohmyfood.png" class="Logo2" alt="Logo" />
         <div class="BasDePage">
             <div class="Proposition">
                 <i class="fa-sharp fa-solid fa-utensils"></i>
                 <p>Proposer un restaurant</p>
             </div>
             <div class="Partenaire">
-                <i class="fas fa-hands-helping icon"></i>
+                <i class="fa-solid fa-handshake-angle"></i>
                 <p>Devenir partenaire</p>
             </div>
             <div class="Mentions">
