@@ -1,0 +1,138 @@
+@media (min-width: 1025px) {
+    
+    .Logo1 {
+        width: 58%;
+        padding: 3% 0 3% 35%;
+        margin-left: 4%;
+    }
+.Localisation {
+    padding: 1% 0 5% 43%;
+    background-color: #e1dede;
+
+        & .fa-location-dot {
+            margin-top: 3.5%;
+            font-size: 21px;
+        }
+        & input {
+            font-size: 27px;
+            background-color: #e1dede;
+        }
+    }
+    .Reservation {
+
+        & h1 {
+            font-size: 32px;
+            padding: 4% 0% 1% 0%;
+            margin-left: 5%;
+        }
+        & .Decouverte {
+            font-size: 27px;
+            padding-left: 39%;
+            text-indent: -7%;
+        }
+    }
+    .Btn {
+        margin: 5% 0 7% 33.5%;
+        padding: 2.5% 7%;
+        font-size: 23px;
+    }
+    h2 {
+        font-size: 39px;
+        margin: 2% 0 -1% 0;
+        display: flex;
+        justify-content: center;
+        text-decoration: underline;
+        padding: 0;
+    }
+    .Restos {
+        display: flex;
+        padding: 0;
+    
+        & .RestosChoix {
+            padding: 2% 1% 2% 2%;
+            border-radius: 68px;
+            margin-left: 5%;             
+        }
+        & .RestosChoix:before {
+            margin-top: -1%;
+            left: -15px;
+            padding: 1.5% 2.5% 1.5% 2.5%;
+            font-size: 17px;
+        }
+        & .Choisissez {
+            padding-right: 2%;
+            margin-left: -11%;
+            font-size: 22px;
+        }
+        & .fa-mobile-screen-button {
+            padding: 0 11% 0 0;
+            font-size: 25px;
+            color: #9356DC;
+        }
+        & .fa-list {
+            font-size: 25px;
+            padding-right: 11%;
+            color: #9356DC;
+        }
+        & .fa-store {
+            font-size: 25px;
+            padding-right: 11%;
+        }
+    }
+    .Lieux {
+        margin-top: -7%;
+        padding-bottom: 9%;
+
+        & .LieuxCartes {
+            display: inline-flex;
+            padding: 7% 2% 3% 8%;
+            margin: 0;
+        }
+        & .LieuxCartesImg {
+            height: 183px;
+        }
+        & .LieuxCartesImgimg {
+            height: 203px;
+        }
+        & h3 {
+            font-size: 18px;
+            padding: 8% 0 0 5%;
+        }
+        & .LieuxCartesInfos {
+            font-size: 16px;
+            padding: 11% 0 0 5%;
+            background: linear-gradient(42deg, #9356DC, transparent);
+
+            & p {
+                margin-top: -1%;
+            }
+            .fa-heart {
+                &:hover {
+                    transition-property: color;
+                    transition-duration: 500ms;
+                    background: linear-gradient(#9356DC, #FF79DA);
+                    font-weight: bold;
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    }
+            }
+        }
+    }
+    a {
+        width: 586px;
+    }
+    .Footer {
+
+        & .Logo2 {
+            width: 58%;
+            padding: 3% 0 3% 35%;
+            margin-left: 4%;
+        }
+        & .BasDePage {
+                display: flex;
+                align-items: center;
+                margin-bottom: -5%;
+            }
+    }
+}

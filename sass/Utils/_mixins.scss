@@ -1,0 +1,24 @@
+@mixin fa-heart($colorFaHeart){ 
+    &:active {
+        transition-property: color;
+        transition-duration: 500ms;
+        background: linear-gradient(#9356DC, #FF79DA);
+        font-weight: bold;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}        
+@mixin transition {
+    transition: margin-right 2s 1s;
+        }
+@mixin ImgPages($size) {
+        width: 100%;
+    }
+@mixin button {
+    &:hover {
+        filter: brightness(120%);
+        cursor: pointer;
+        box-shadow: 12px 12px 12px rgb(25, 152, 152);
+      }
+}

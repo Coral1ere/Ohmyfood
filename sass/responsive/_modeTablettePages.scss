@@ -1,0 +1,71 @@
+@media (min-width: 500px) and(max-width: 1024px) {
+    header {
+        justify-content: flex-start;
+        & img {
+            padding-left: 59px;
+            height: 51px;
+        }
+        & .fa-solid {
+            font-size: 29px;
+        }
+    }
+    .Menu {
+        font-size: 25px;
+        & h2 {
+            font-size: 45px;
+        }
+    }
+    
+    .fa-heart {
+        font-size: xx-large;
+    }
+    .PlatsCartes {
+        padding: 17px 0 1px 8px;
+        margin-top: 35px;
+        font-family: "Roboto, sans-serif";
+        & .PlatsInfosDetail {
+            font-size: 22px;
+        }
+
+        & .circle {
+            height: 129px;
+        }
+        & .fa-check-circle {
+            margin: 51px;
+            font-size: 29px;
+        }
+        &:active .circle {
+            width: 94px;
+            height: 128px;
+        }
+       
+        & .PlatsInfos {
+            font-size: 22px;
+        }
+        & .PlatsInfosPrix {
+            font-size: 22px;
+        }
+    }
+    h3 {
+        padding-left: 25px;
+        font-size: 21px;
+    }
+    .underline-h3 {
+        margin: -15px 0 0 25px;
+    }
+    .Btn { 
+        font-size: 30px;
+        border-radius: 50px;
+        margin-top: 10%
+    }
+    .Footer {
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        & .Logo2 {
+            padding: 5% 0 2% 3%;
+    }
+    }
+    
+}

@@ -1,0 +1,32 @@
+.Footer {
+    background-color: black;
+    color: white;
+    padding: 3% 0 8% 0;
+
+    & .Logo2 {
+        width: 35%;
+        padding: 5% 0 2% 9%;
+      }
+    & .Proposition {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        padding-left: 8%;
+        margin: 2%;
+      
+      & .Contacts {
+        color: white;
+        white-space: nowrap;
+      } 
+      & .Contact {
+        color: white;
+      }
+      & .Partenaires {
+        padding-left: 4%;
+        white-space: nowrap;
+      }
+      & .fa-utensils, & .fa-handshake-angle {
+        font-size: 13px;
+      }
+  }
+}

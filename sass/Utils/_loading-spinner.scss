@@ -1,0 +1,49 @@
+    .Intro {
+        position: fixed;
+        background-color: rgb(245, 245, 245);
+        height: 100vh;
+        z-index: 1;
+        inset: 0;
+        animation: chargement 1s 3s forwards;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "shrikhand", cursive;
+        font-size: 75px;
+        color: $color-primary;
+        text-shadow: 10px 10px 7px $color-secondary;
+    &::after {
+        content: "Ohmyfood";
+        animation: taille 3s linear,rotations 3s linear;
+        pointer-events: none;
+        }
+            @keyframes chargement {
+                from { 
+                    transform: scale(1); 
+                }
+                to { 
+                    transform: scale(0);
+                 }
+
+            }
+            @keyframes rotations {
+                from {
+                    transform: rotate(0);
+                }
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+            @keyframes taille {
+                0% {
+                    font-size: 5px;
+                }
+                50% {
+                    font-size: 40px;
+                }
+                100% {
+                    font-size: 75px;
+                }
+            }
+        }   
+    

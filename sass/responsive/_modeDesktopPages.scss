@@ -1,0 +1,123 @@
+@media (min-width: 1025px) {
+
+    header {
+        padding-top: 2%;
+        justify-content: normal;
+
+        & .Retour {
+            transform: translateY(-14%);
+            margin-left: -5%;
+            font-size: 25px;
+        }
+        & img {
+            height: 51px;
+            padding-left: 246px;
+        }
+    }
+    .LieuxCartesImg {
+        width: 650px;
+        height: 300px;
+        margin: -2% 0 0 30%;
+        }
+    .Menu {
+        width: 40%;
+        margin-top: 4%;
+        background-color: white;
+        & .fa-heart {
+            margin-right: -148%;
+            &:hover {
+                transition-property: color;
+                transition-duration: 500ms;
+                background: linear-gradient(#9356DC, #FF79DA);
+                font-weight: bold;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                }
+        }
+        & h2 {
+            font-size: 30px;
+            margin: 0 -39% 0 64%;
+            color: #9356DC;
+        }   
+        & .Nom {
+        border-radius: 0%;
+        margin: 14% 0 0 37%;
+        background-color: white;
+        }
+    }
+    h3 {
+        font-weight: 600;
+        font-size: 19px;
+    }
+    .Plats {
+        display: flex;
+        font-family: "Roboto, sans-serif";
+        justify-content: space-between;
+        padding-top: 70px;
+    }
+    .PlatsCartes {
+        width: 120%;
+        margin: 8% 0 3% 0;
+        width: 357px;
+        background-color: #C0C0C0;
+
+        & .circle {
+            font-size: 48px;
+            padding-top: 21px;
+            border-radius: 0;
+        }
+        & .fa-circle-check {
+            padding: 10px 8px 0 8px;
+            margin: 16px;
+            font-size: 20px;
+            color: white;
+            border-radius: 0;
+            transition: 0.5s ease-in-out;
+            transform: rotate(360deg);
+        }
+        &:hover .circle {
+            width: 112px;
+            opacity: 100%;
+        }  
+        &:hover .fa-circle-check {
+            transform: rotate(0deg);
+        }
+    }
+        h4 {
+            font-size: 17px;
+        }
+        .PlatsInfos {
+            font-size: 15px;
+        }
+        .PlatsInfosDetail {
+            font-weight: 100;
+        }
+        .animation-entrees {
+            margin-left: 24%;
+        }
+        .animation-plat {
+            margin: 0 18%;
+        } 
+    
+    .Btn {
+        margin: 10% 93%;
+        padding: 5.5% 19%;
+        font-size: 23px;
+    }
+    .Footer {
+        font-size: 20px;
+        padding: 0;
+
+        & .Logo2 {
+            margin-left: 32%;
+            width: 29%;
+        }
+        & .BasDePage {
+            display: flex;
+            padding-bottom: 3%;
+        }
+    }
+
+     
+}

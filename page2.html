@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="./sass/normalize.css">
     <style>@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');</style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/fedfbc8e6e.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/stylepages.css"/>
+    <link rel="stylesheet" href="./stylepages.css">
     <title>Oh_my_food</title>
 </head>
 <body>
@@ -19,120 +19,147 @@
         <h1><img id="Logo" src="Images/ohmyfood.png" alt="Logo"></h1>
     </header>
     <main>
-        <img class="LieuxCartesImg" src="Images/La_note_enchantée.jpg" alt="La note enchantée">
+        <img class="LieuxCartesImg" src="Images/La_note_enchantée2.jpg" alt="La note enchantée">
         <section class="Menu">
-            <h2>La note enchantée<i class="far fa-heart"></i></h2>
+            <div class="Nom">
+                <h2>La note enchantée<i class="far fa-heart"></i></h2>
+            </div>
             <div class="Plats">
-                <div class="Entrées">
+                <div class="animation-entrees"> 
                     <h3>ENTRÉES</h3>
+                    <p class="underline-h3"></p>
                     <article class="PlatsCartes">
                         <h4>Ravioles de foie gras</h4>
-                        <p class="PlatsInfos">
-                            Accompagnés de leur crème à la truffe
-                            <strong class="PlatsInfosPrix">25€</strong>
-                            <i class="fa-regular fa-circle-check"></i>
-                        </p>
+                        <div class="PlatsInfos">
+                            <p class="PlatsInfosDetails">Accompagnés de leur crème à la truffe</p>
+                            <p class="PlatsInfosPrix">25€</p>
+                            <div class="circle">
+                            <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
                     </article>
                     <article class="PlatsCartes">
                         <h4>Caviar osciètre</h4>
-                        <p class="PlatsInfos">
-                            Sur blini à la farine de blé noir
-                            <strong class="PlatsInfosPrix">35€</strong>
-                            <i class="fa-regular fa-circle-check"></i>
-                        </p>
+                        <div class="PlatsInfos">
+                            <p class="PlatsInfosDetails">Sur blini à la farine de blé noir</p>
+                            <p class="PlatsInfosPrix">35€</p>
+                            <div class="circle">
+                            <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
                     </article>
                     <article class="PlatsCartes">
-                        <h4>Homard et espuma de...</h4>
-                        <p class="PlatsInfos">
-                            Mariné au zests d'orange
-                            <strong class="PlatsInfosPrix">20€</strong>
-                            <i class="fa-regular fa-circle-check"></i>
-                        </p>
+                        <h4>Homard et espuma de potiron</h4>
+                        <div class="PlatsInfos">
+                            <p class="PlatsInfosDetails">Mariné au zestes d'orange</p>
+                            <p class="PlatsInfosPrix">20€</p>
+                            <div class="circle">
+                            <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
                     </article>
                     <article class="PlatsCartes">
                         <h4>Foie gras de canard cuit entier</h4>
-                        <p class="PlatsInfos">
-                            <strong class="PlatsInfosPrix">35€</strong>
-                            <i class="fa-regular fa-circle-check"></i>
-                        </p>
+                        <div class="PlatsInfos">
+                            <p class="PlatsInfosDetails">Confiture de figue et pain toasté</p>
+                            <p class="PlatsInfosPrix">35€</p>
+                            <div class="circle">
+                            <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
                     </article>
                 </div>
-                <div class="Plats">
+                <div class="animation-plat">
                     <h3>PLATS</h3>
+                    <p class="underline-h3"></p>
                     <article class="PlatsCartes">
                         <h4>Noix de coquilles Saint-Jacques</h4>
-                        <p class="PlatsInfos">
-                            Sur lit de purée de céleri-rave
-                            <strong class="PlatsInfosPrix">40€</strong>
-                            <i class="fa-regular fa-circle-check"></i>
-                        </p>
+                        <div class="PlatsInfos">
+                            <p class="PlatsInfosDetails">Sur lit de purée de céleri-rave</p>
+                            <p class="PlatsInfosPrix">40€</p>
+                            <div class="circle">
+                            <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
                     </article>
                     <article class="PlatsCartes">
                         <h4>Langoustine poêlée</h4>
-                        <p class="PlatsInfos">
-                            Purée de patate douce
-                            <strong class="PlatsInfosPrix">35€</strong>
-                            <i class="fa-regular fa-circle-check"></i>
-                        </p>
+                        <div class="PlatsInfos">
+                            <p class="PlatsInfosDetails">Purée de patate douce</p>
+                            <p class="PlatsInfosPrix">35€</p>
+                            <div class="circle">
+                            <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
                     </article>
                     <article class="PlatsCartes">
                         <h4>Mijoté de queue de boeuf</h4>
-                        <p class="PlatsInfos">
-                            Et riz sauvage aux zests de citron
-                            <strong class="PlatsInfosPrix">44€</strong>
-                            <i class="fa-regular fa-circle-check"></i>
-                        </p>
+                        <div class="PlatsInfos">
+                            <p class="PlatsInfosDetails">Et riz sauvage aux zestes de citron</p>
+                            <p class="PlatsInfosPrix">44€</p>
+                            <div class="circle">
+                            <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
                     </article>
                 </div>
-                <div class="Desserts">
+
+                <div class="animation-desserts">
                     <h3>DESSERTS</h3>
+                    <p class="underline-h3"></p>
                     <article class="PlatsCartes">
                         <h4>Macaron noisette et chocolat</h4>
-                        <p class="PlatsInfos">
-                            Glace au caramel brun et sel de Guérande
-                            <strong class="PlatsInfosPrix">18€</strong>
-                            <i class="fa-regular fa-circle-check"></i>
-                        </p>
+                        <div class="PlatsInfos">
+                            <p class="PlatsInfosDetails">Glace au caramel brun et sel de Guérande</p>
+                            <p class="PlatsInfosPrix">18€</p>
+                            <div class="circle">
+                            <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
                     </article>
                     <article class="PlatsCartes">
                         <h4>Baba au rhum revisité</h4>
-                        <p class="PlatsInfos">
-                            Avec son coulis de citron
-                            <strong class="PlatsInfosPrix">22€</strong>
-                            <i class="fa-regular fa-circle-check"></i>
-                        </p>
+                        <div class="PlatsInfos">
+                            <p class="PlatsInfosDetails">Avec son coulis de citron</p>
+                            <p class="PlatsInfosPrix">22€</p>
+                            <div class="circle">
+                            <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
                     </article>
                     <article class="PlatsCartes">
                         <h4>Tarte au citron meringuée</h4>
-                        <p class="PlatsInfos">
-                            Déstructurée
-                            <strong class="PlatsInfosPrix">23€</strong>
-                            <i class="fa-regular fa-circle-check"></i>
-                        </p>
+                        <div class="PlatsInfos">
+                            <p class="PlatsInfosDetails">Déstructurée</p>
+                            <p class="PlatsInfosPrix">23€</p>
+                            <div class="circle">
+                            <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
                     </article>
-                </div>
+                </div>    
             </div>
-            <button class="Commande">Commander</button>
+            <button class="Btn">Commander</button>
         </section>
     </main>
-    <footer>
-        <img id="Logo2" src="./Images/ohmyfood.png" alt="Logo">
+    <footer class="Footer">
+        <img src="./Images/ohmyfood2.png" class="Logo2" alt="Logo">
         <div class="BasDePage">
-            <div class="Proposition">
-                <i class="fa-sharp fa-solid fa-utensils"></i>
-                <p>Proposer un restaurant</p>
-            </div>
-            <div class="Partenaire">
-                <i class="fas fa-hands-helping icon"></i>
-                <p>Devenir partenaire</p>
-            </div>
-            <div class="Mentions">
-                <p>Mentions légales</p>
-            </div>
-            <div class="Contacts">
-                <a href="mailto:email@exemple.com">Contact</a>
-            </div>
+            <ul class="Proposition">
+                <li class="Contacts"><i class="fa-sharp fa-solid fa-utensils"></i>
+                <span class="Partenaires">Proposer un restaurant</span></li>
+            </ul>
+            <ul class="Proposition">
+                <li class="Contacts"><i class="fa-solid fa-handshake-angle"></i>
+                <span class="Partenaires">Devenir partenaire</span></li>
+            </ul>
+            <ul class="Proposition">
+                <li class="Contacts">Mentions légales</li>
+            </ul>
+            <ul class="Proposition">
+                <li class="Contacts"><a class="Contact" href="mailto:email@exemple.com">Contact</a></li>
+            </ul>
         </div>
-    </footer>         
+    </footer>     
 </body>
 </html>
