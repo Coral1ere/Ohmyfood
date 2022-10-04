@@ -70,9 +70,10 @@ h3 {
   transition: color 2s;
 }
 .fa-heart:active {
-  background: linear-gradient(#9356DC, #FF79DA);
+  background: linear-gradient(200deg, #9356DC, #FF79DA);
   font-weight: bold;
   background-clip: text;
+  text-rendering: auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
