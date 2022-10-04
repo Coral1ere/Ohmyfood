@@ -67,10 +67,9 @@ h3 {
 
 .fa-heart {
   cursor: pointer;
+  transition: color 2s;
 }
 .fa-heart:active {
-  transition-property: color;
-  transition-duration: 500ms;
   background: linear-gradient(#9356DC, #FF79DA);
   font-weight: bold;
   background-clip: text;

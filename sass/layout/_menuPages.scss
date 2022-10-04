@@ -42,7 +42,8 @@
             margin: -15px 0 15px 18px;
         }
         .fa-heart {
-            cursor: pointer;
+            cursor: pointer;      
+            transition: color 2s;        
             @include fa-heart($colorFaHeart); 
         }
     .PlatsCartes {
