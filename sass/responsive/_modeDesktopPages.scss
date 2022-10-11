@@ -1,5 +1,10 @@
-@media (min-width: 1025px) {
+@media (min-width: 1341px) {
 
+    * {
+        box-sizing: border-box; 
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+      }
     header {
         padding-top: 2%;
         justify-content: normal;
@@ -10,7 +15,7 @@
             font-size: 25px;
         }
         & img {
-            height: 51px;
+            height: auto;
             padding-left: 246px;
         }
     }
@@ -25,6 +30,7 @@
         background-color: white;
         & .fa-heart {
             margin-right: -148%;
+            color: black;
             &:hover {
                 transition-property: color;
                 transition-duration: 500ms;
@@ -38,7 +44,8 @@
         & h2 {
             font-size: 30px;
             margin: 0 -39% 0 64%;
-            color: #9356DC;
+            font-weight: 700;
+            font-family: "shrikhand", cursive;
         }   
         & .Nom {
         border-radius: 0%;
@@ -53,13 +60,12 @@
     .Plats {
         display: flex;
         font-family: "Roboto, sans-serif";
-        justify-content: space-between;
         padding-top: 70px;
+        min-width: 100%;
     }
     .PlatsCartes {
-        width: 120%;
         margin: 8% 0 3% 0;
-        width: 357px;
+        min-width: 357px;
         background-color: #C0C0C0;
 
         & .circle {
@@ -94,11 +100,14 @@
             font-weight: 100;
         }
         .animation-entrees {
-            margin-left: 24%;
+            margin-left: 14%;
         }
         .animation-plat {
-            margin: 0 18%;
+            margin: 0 10%;
         } 
+        .animation-desserts {
+            margin-right: 5%;
+        }
     
     .Btn {
         margin: 10% 93%;

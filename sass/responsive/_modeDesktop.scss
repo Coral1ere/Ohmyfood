@@ -1,13 +1,12 @@
-@media (min-width: 1025px) {
+@media (min-width: 1341px) {
     
     .Logo1 {
-        width: 58%;
         padding: 3% 0 3% 35%;
         margin-left: 4%;
+        width: 54%;
     }
 .Localisation {
-    padding: 1% 0 5% 43%;
-    background-color: #e1dede;
+        padding-left: 6%;
 
         & .fa-location-dot {
             margin-top: 3.5%;
@@ -15,7 +14,7 @@
         }
         & input {
             font-size: 27px;
-            background-color: #e1dede;
+            background-color: rgb(240, 240, 240);
         }
     }
     .Reservation {
@@ -27,26 +26,25 @@
         }
         & .Decouverte {
             font-size: 27px;
-            padding-left: 39%;
+            padding-left: 6%;
             text-indent: -7%;
         }
     }
     .Btn {
-        margin: 5% 0 7% 33.5%;
-        padding: 2.5% 7%;
         font-size: 23px;
+        white-space: nowrap;
+        padding: 2%;
     }
     h2 {
-        font-size: 39px;
-        margin: 2% 0 -1% 0;
+        font-size: 29px;
+        margin: 5% 0 0 3%;
         display: flex;
-        justify-content: center;
-        text-decoration: underline;
         padding: 0;
     }
     .Restos {
         display: flex;
         padding: 0;
+        flex-direction: row;
     
         & .RestosChoix {
             padding: 2% 1% 2% 2%;
@@ -62,37 +60,39 @@
         & .Choisissez {
             padding-right: 2%;
             margin-left: -11%;
-            font-size: 22px;
+            font-size: 18px;
         }
         & .fa-mobile-screen-button {
             padding: 0 11% 0 0;
-            font-size: 25px;
+            font-size: 20px;
             color: #9356DC;
         }
         & .fa-list {
-            font-size: 25px;
+            font-size: 20px;
             padding-right: 11%;
             color: #9356DC;
         }
         & .fa-store {
-            font-size: 25px;
+            font-size: 20px;
             padding-right: 11%;
         }
     }
     .Lieux {
         margin-top: -7%;
-        padding-bottom: 9%;
+        padding: 3% 0 9% 11%;
+        width: 100%;
 
         & .LieuxCartes {
             display: inline-flex;
-            padding: 7% 2% 3% 8%;
-            margin: 0;
+            padding: 4% 2% 3% 8%;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 3%;
+            width: 49%;
         }
         & .LieuxCartesImg {
             height: 183px;
-        }
-        & .LieuxCartesImgimg {
-            height: 203px;
         }
         & h3 {
             font-size: 18px;
@@ -120,7 +120,8 @@
         }
     }
     a {
-        width: 586px;
+        width: 100%;
+        margin: -10% 0 0 -40%;
     }
     .Footer {
 
