@@ -103,6 +103,7 @@ h3 {
   overflow: hidden;
   text-overflow: ellipsis;
   padding-top: 0.5%;
+  font-size: 17px;
 }
 .PlatsCartes .PlatsInfos {
   display: flex;
@@ -113,8 +114,6 @@ h3 {
 .PlatsCartes .PlatsInfosDetails {
   overflow: hidden;
   text-overflow: ellipsis;
-  font-weight: 500;
-  opacity: 0.7;
   font-size: 14px;
 }
 .PlatsCartes .PlatsInfosPrix {
@@ -253,29 +252,27 @@ h3 {
     font-size: xx-large;
   }
   .PlatsCartes {
-    padding: 3% 0 1% 2%;
+    padding: 3% 0 0 2%;
     margin-top: 3%;
     font-family: "Roboto, sans-serif";
   }
-  .PlatsCartes .PlatsInfosDetail {
-    font-size: 22px;
-  }
-  .PlatsCartes .circle {
-    height: 129px;
-  }
-  .PlatsCartes .fa-check-circle {
-    margin: 51px;
-    font-size: 29px;
-  }
   .PlatsCartes:active .circle {
-    width: 94px;
-    height: 128px;
+    height: 90px;
   }
-  .PlatsCartes .PlatsInfos {
+  h4 {
+    font-size: 19px;
+  }
+  .PlatsInfos {
     font-size: 22px;
   }
-  .PlatsCartes .PlatsInfosPrix {
-    font-size: 22px;
+  .PlatsInfos .PlatsInfosPrix {
+    font-size: 18px;
+  }
+  .PlatsInfos .PlatsInfosDetails {
+    font-size: 17px;
+    padding: 5% 0 2% 0;
+    margin: 0;
+    opacity: 0.7;
   }
   h3 {
     padding-left: 25px;

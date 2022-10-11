@@ -21,32 +21,31 @@
         font-size: xx-large;
     }
     .PlatsCartes {
-        padding: 3% 0 1% 2%;
+        padding: 3% 0 0 2%;
         margin-top: 3%;
         font-family: "Roboto, sans-serif";
-        & .PlatsInfosDetail {
-            font-size: 22px;
-        }
 
-        & .circle {
-            height: 129px;
-        }
-        & .fa-check-circle {
-            margin: 51px;
-            font-size: 29px;
-        }
         &:active .circle {
-            width: 94px;
-            height: 128px;
-        }
-       
-        & .PlatsInfos {
-            font-size: 22px;
-        }
-        & .PlatsInfosPrix {
-            font-size: 22px;
+            height: 90px;
         }
     }
+        h4 {
+            font-size: 19px;
+        }
+        .PlatsInfos {
+            font-size: 22px;
+        
+        .PlatsInfosPrix {
+            font-size: 18px;
+        }
+        .PlatsInfosDetails {
+            font-size: 17px;
+            padding: 5% 0 2% 0;
+            margin: 0;
+            opacity: 0.7;
+        }
+    } 
+    
     h3 {
         padding-left: 25px;
         font-size: 21px;
@@ -54,6 +53,7 @@
         .underline-h3 {
             margin: -15px 0 0 25px;
         }
+
     .Btn { 
         font-size: 25px;
         border-radius: 50px;
