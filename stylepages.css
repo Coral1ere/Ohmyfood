@@ -353,8 +353,8 @@ h3 {
   .PlatsCartes {
     width: 120%;
     margin: 8% 0 3% 0;
-    width: 357px;
-    background-color: #C0C0C0;
+    min-width: 357px;
+    background: linear-gradient(#9356DC, #FF79DA);
   }
   .PlatsCartes .circle {
     font-size: 48px;
