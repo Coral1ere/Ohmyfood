@@ -50,27 +50,26 @@
 
 .Logo1 {
   padding: 5% 0 0 30%;
-  width: 66%;
+  width: 65%;
   font-family: "shrikhand", cursive;
 }
 
 .Localisation {
   background-color: rgb(240, 240, 240);
-  padding: 1% 0 3% 15%;
+  padding: 1% 0 1% 30%;
   box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.3);
   display: flex;
-  justify-content: center;
 }
 .Localisation input {
   background-color: rgb(240, 240, 240);
   border: none;
   margin: 3%;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 15px;
 }
 .Localisation .fa-location-dot {
   margin-top: 4%;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .Reservation {
@@ -90,13 +89,11 @@
 .Reservation .Decouverte {
   color: grey;
   font-size: 15px;
-  padding-left: 15%;
+  padding-left: 22%;
   text-indent: -12%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  display: flex;
-  justify-content: center;
 }
 
 .Choix {
@@ -113,9 +110,6 @@ h2 {
 .Restos {
   counter-reset: li;
   margin-left: -3%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 .Restos .RestosChoix {
   list-style-type: none;
@@ -169,11 +163,11 @@ h2 {
   padding: 5% 0;
 }
 .Lieux .LieuxCartes {
-  margin: 10% auto;
+  margin: 10% -5%;
 }
 .Lieux .LieuxCartesImgimg {
   width: 100%;
-  height: auto;
+  height: 145px;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
   object-position: bottom;
@@ -211,16 +205,15 @@ h2 {
 .Lieux h3 {
   font-size: 17px;
   color: black;
-  margin: 3% auto;
-  padding: 6% 0 0 5%;
+  margin-top: 0.5%;
+  padding: 12% 0 0 5%;
 }
 .Lieux .LieuxCartesInfos > p {
   font-size: 14px;
   padding: 0 0 5% 5%;
   color: black;
-  margin: 0;
+  margin-top: -2%;
   font-weight: 500;
-  opacity: 0.7;
 }
 
 .fa-heart {
@@ -278,13 +271,9 @@ h2 {
   font-family: "Roboto", sans-serif;
 }
 
-img {
-  max-width: 100%;
-}
-
 .Btn {
-  margin: 5% auto;
-  padding: 3.5% 0;
+  margin: 3% 0 12% 21%;
+  padding: 3.5% 5%;
   border-radius: 30px;
   color: white;
   font-size: 18px;
@@ -292,9 +281,6 @@ img {
   font-family: "Roboto", sans-serif;
   background: linear-gradient(#FF79DA, #9356DC);
   box-shadow: 6px 6px 6px rgb(200, 230, 230);
-  width: 70%;
-  display: block;
-  max-width: 350px;
 }
 .Btn:hover {
   filter: brightness(120%);
@@ -302,44 +288,39 @@ img {
   box-shadow: 12px 12px 12px rgb(25, 152, 152);
 }
 
-@media (min-width: 600px) and (max-width: 1340px) {
+@media (min-width: 500px) and (max-width: 1024px) {
   .Logo1 {
     padding: 5% 0 3% 30%;
   }
   .Localisation {
-    text-align: center;
+    padding: 1% 0 5% 35%;
   }
   .Localisation input {
-    font-size: 25px;
+    font-size: 26px;
   }
   .Localisation .fa-location-dot {
-    font-size: 20px;
+    font-size: 22px;
   }
   .Reservation h1 {
     padding: 3% 0 1% 5%;
-    font-size: 28px;
+    font-size: 30px;
   }
   .Reservation .Decouverte {
-    font-size: 23px;
-    padding: 0;
-    margin-left: 3%;
-    text-align: center;
+    font-size: 25px;
+    margin-left: 7%;
   }
   .Btn {
-    font-size: 25px;
+    font-size: 30px;
     border-radius: 50px;
-    white-space: nowrap;
-    padding: 2%;
+    margin-left: 24%;
   }
   h2 {
-    font-size: 28px;
+    font-size: 35px;
     font-family: "Roboto", sans-serif;
-    margin-left: 10%;
   }
   .Restos .RestosChoix {
     font-size: 30px;
     margin-left: 2%;
-    width: 81%;
   }
   .Restos .RestosChoix:before {
     font-size: 15px;
@@ -362,31 +343,28 @@ img {
   }
   .Lieux .LieuxCartes {
     display: inline-flex;
-    width: 80%;
-    margin: 14% 0 17% 5%;
+    width: 475px;
+    padding: 0 2% 3% 5%;
   }
   .Lieux a {
     width: 100%;
     margin: -19% 0 -1% 0;
   }
   .Lieux h3 {
-    font-size: 21px;
-    padding: 5% 0 1% 5%;
+    font-size: 22px;
   }
   .Lieux .LieuxCartesInfos p {
-    font-size: 18px;
-    margin-top: 2%;
-    font-weight: 200;
-    padding-bottom: 3%;
+    font-size: 20px;
+    margin-top: -4%;
   }
-  .Lieux .LieuxCartesFigure {
-    width: 100%;
+  .Lieux .RestosChoix {
+    width: 88%;
   }
   .Lieux .LieuxCartesImg {
     height: 200px;
   }
   .Lieux .LieuxCartesImgimg {
-    object-fit: unset;
+    height: 215px;
   }
   .Lieux .Nouveau {
     font-size: 16px;
@@ -400,8 +378,12 @@ img {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  .Btn {
+    font-size: 28px;
+    border-radius: 50px;
+  }
   .Footer {
-    font-size: 17px;
+    font-size: 25px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -415,14 +397,15 @@ img {
     flex-direction: column;
   }
 }
-@media (min-width: 1341px) {
+@media (min-width: 1025px) {
   .Logo1 {
+    width: 58%;
     padding: 3% 0 3% 35%;
     margin-left: 4%;
-    width: 54%;
   }
   .Localisation {
-    padding-left: 6%;
+    padding: 1% 0 5% 43%;
+    background-color: #e1dede;
   }
   .Localisation .fa-location-dot {
     margin-top: 3.5%;
@@ -430,7 +413,7 @@ img {
   }
   .Localisation input {
     font-size: 27px;
-    background-color: rgb(240, 240, 240);
+    background-color: #e1dede;
   }
   .Reservation h1 {
     font-size: 32px;
@@ -439,24 +422,25 @@ img {
   }
   .Reservation .Decouverte {
     font-size: 27px;
-    padding-left: 6%;
+    padding-left: 39%;
     text-indent: -7%;
   }
   .Btn {
+    margin: 5% 0 7% 33.5%;
+    padding: 2.5% 7%;
     font-size: 23px;
-    white-space: nowrap;
-    padding: 2%;
   }
   h2 {
-    font-size: 29px;
-    margin: 5% 0 0 3%;
+    font-size: 39px;
+    margin: 2% 0 -1% 0;
     display: flex;
+    justify-content: center;
+    text-decoration: underline;
     padding: 0;
   }
   .Restos {
     display: flex;
     padding: 0;
-    flex-direction: row;
   }
   .Restos .RestosChoix {
     padding: 2% 1% 2% 2%;
@@ -472,38 +456,36 @@ img {
   .Restos .Choisissez {
     padding-right: 2%;
     margin-left: -11%;
-    font-size: 18px;
+    font-size: 22px;
   }
   .Restos .fa-mobile-screen-button {
     padding: 0 11% 0 0;
-    font-size: 20px;
+    font-size: 25px;
     color: #9356DC;
   }
   .Restos .fa-list {
-    font-size: 20px;
+    font-size: 25px;
     padding-right: 11%;
     color: #9356DC;
   }
   .Restos .fa-store {
-    font-size: 20px;
+    font-size: 25px;
     padding-right: 11%;
   }
   .Lieux {
     margin-top: -7%;
-    padding: 3% 0 9% 11%;
-    width: 100%;
+    padding-bottom: 9%;
   }
   .Lieux .LieuxCartes {
     display: inline-flex;
-    padding: 4% 2% 3% 8%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 3%;
-    width: 49%;
+    padding: 7% 2% 3% 8%;
+    margin: 0;
   }
   .Lieux .LieuxCartesImg {
     height: 183px;
+  }
+  .Lieux .LieuxCartesImgimg {
+    height: 203px;
   }
   .Lieux h3 {
     font-size: 18px;
@@ -527,8 +509,7 @@ img {
     -webkit-text-fill-color: transparent;
   }
   a {
-    width: 100%;
-    margin: -10% 0 0 -40%;
+    width: 586px;
   }
   .Footer .Logo2 {
     width: 58%;
