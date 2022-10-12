@@ -75,21 +75,22 @@
 .Reservation {
   background-color: rgb(245, 245, 245);
   margin-top: -3%;
-  padding-bottom: 2%;
+  padding-bottom: 9%;
 }
 .Reservation h1 {
   font-size: 20px;
   display: flex;
   justify-content: center;
-  align-items: center;
   text-indent: -16%;
   padding: 7% 0 1% 10%;
   margin-top: -5%;
 }
 .Reservation .Decouverte {
   color: grey;
-  font-size: 15px;
-  padding-left: 22%;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  padding-left: 21%;
   text-indent: -12%;
   white-space: nowrap;
   overflow: hidden;
@@ -171,6 +172,8 @@ h2 {
   object-fit: cover;
   border-radius: 20px 20px 0 0;
   object-position: bottom;
+  display: block;
+  position: relative;
 }
 .Lieux .LieuxCartesFigure {
   border-radius: 20px;
@@ -303,7 +306,7 @@ h2 {
   }
   .Reservation h1 {
     padding: 3% 0 1% 5%;
-    font-size: 30px;
+    font-size: 25px;
   }
   .Reservation .Decouverte {
     font-size: 25px;
@@ -390,7 +393,8 @@ h2 {
     padding-left: 2%;
   }
   .Footer .Logo2 {
-    padding: 5% 0 2% 3%;
+    padding: 5% 0 2% 1%;
+    width: 24%;
   }
   .Footer .BasDePage {
     display: flex;
@@ -489,7 +493,7 @@ h2 {
   }
   .Lieux h3 {
     font-size: 18px;
-    padding: 8% 0 0 5%;
+    padding: 2% 0 1% 5%;
   }
   .Lieux .LieuxCartesInfos {
     font-size: 16px;
