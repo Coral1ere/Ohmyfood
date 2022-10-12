@@ -20,21 +20,22 @@
   .Reservation {
     background-color: rgb(245, 245, 245);
     margin-top: -3%;
-    padding-bottom: 2%;
+    padding-bottom: 9%;
   
     & h1 {
       font-size: 20px;
       display: flex;
       justify-content: center;
-      align-items: center;
       text-indent: -16%;
       padding: 7% 0 1% 10%;
       margin-top: -5%;
     }
     & .Decouverte {
       color: grey;
-      font-size: 15px;
-      padding-left: 15%;
+      font-size: 16px;
+      display: flex;
+      justify-content: center;
+      padding-left: 21%;
       text-indent: -12%;
       white-space: nowrap;
       overflow: hidden;
