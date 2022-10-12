@@ -1,6 +1,6 @@
 .Btn {
-    margin: 3% 0 12% 21%;
-    padding: 3.5% 5%;
+    margin: 5% auto;
+    padding: 3.5% 0;
     border-radius: 30px;
     color: white;
     font-size: 18px;
@@ -8,5 +8,8 @@
     font-family: "Roboto", sans-serif;
     background: linear-gradient(#FF79DA, #9356DC);
     box-shadow: 6px 6px 6px rgb(200, 230, 230);
+    width: 70%;
+    display: block;
+    max-width: 350px;
     @include button;
   }

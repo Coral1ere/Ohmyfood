@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+}
+
 header {
   display: flex;
   align-items: baseline;
@@ -30,7 +34,7 @@ header .Retour {
 
 .Menu {
   background-color: #f6f6f6;
-  padding-bottom: 20px;
+  padding-bottom: 2%;
 }
 .Menu .Nom {
   border-top-left-radius: 40px 40px;
@@ -52,17 +56,17 @@ header .Retour {
 
 h3 {
   font-family: "roboto", sans-serif;
-  padding-left: 18px;
+  padding-left: 6%;
   opacity: 0.7;
   font-weight: 500;
   font-size: 17px;
 }
 
 .underline-h3 {
-  width: 50px;
+  width: 41px;
   height: 3px;
   background-color: #99e2d0;
-  margin: -15px 0 15px 18px;
+  margin: -3% 0 3% 6%;
 }
 
 .fa-heart {
@@ -82,19 +86,20 @@ h3 {
   background-color: white;
   box-shadow: 2px 2px 2px lightgrey;
   border-radius: 20px 20px;
-  margin: 0 10px 15px 18px;
+  margin: 0 5% 3% 5%;
   transition: all 2000ms;
   cursor: pointer;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  padding: 6px 0 0 12px;
+  padding: 4% 0 0 3%;
   display: flex;
   flex-direction: column;
   font-family: "Roboto", sans-serif;
+  max-width: 100%;
 }
 .PlatsCartes h4 {
-  margin: 0;
+  margin: -2% 0 4% 0;
   overflow: hidden;
   text-overflow: ellipsis;
   padding-top: 0.5%;
@@ -102,9 +107,8 @@ h3 {
 }
 .PlatsCartes .PlatsInfos {
   display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  margin-top: -10px;
+  align-items: flex-end;
+  margin-top: -8%;
   font-size: 12px;
 }
 .PlatsCartes .PlatsInfosDetails {
@@ -115,7 +119,7 @@ h3 {
 .PlatsCartes .PlatsInfosPrix {
   font-weight: bold;
   margin-left: auto;
-  padding-right: 30px;
+  padding-right: 5%;
   font-size: 15px;
 }
 .PlatsCartes .circle {
@@ -215,7 +219,7 @@ h3 {
   font-size: 18px;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
-  display: flex;
+  display: block;
   border: none;
   background: linear-gradient(#FF79DA, #9356DC);
   box-shadow: 6px 6px 6px rgb(200, 230, 230);
@@ -226,7 +230,7 @@ h3 {
   box-shadow: 12px 12px 12px rgb(25, 152, 152);
 }
 
-@media (min-width: 500px) and (max-width: 1024px) {
+@media (min-width: 600px) and (max-width: 1340px) {
   header {
     justify-content: flex-start;
   }
@@ -241,7 +245,8 @@ h3 {
     font-size: 25px;
   }
   .Menu h2 {
-    font-size: 45px;
+    font-size: 30px;
+    justify-content: space-evenly;
   }
   .fa-heart {
     font-size: xx-large;
@@ -277,12 +282,12 @@ h3 {
     margin: -15px 0 0 25px;
   }
   .Btn {
-    font-size: 30px;
+    font-size: 25px;
     border-radius: 50px;
-    margin-top: 10%;
+    margin: 10% 0 7% 27%;
   }
   .Footer {
-    font-size: 25px;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -291,7 +296,12 @@ h3 {
     padding: 5% 0 2% 3%;
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1341px) {
+  * {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+  }
   header {
     padding-top: 2%;
     justify-content: normal;
@@ -302,7 +312,7 @@ h3 {
     font-size: 25px;
   }
   header img {
-    height: 51px;
+    height: auto;
     padding-left: 246px;
   }
   .LieuxCartesImg {
@@ -317,6 +327,7 @@ h3 {
   }
   .Menu .fa-heart {
     margin-right: -148%;
+    color: black;
   }
   .Menu .fa-heart:hover {
     transition-property: color;
@@ -330,7 +341,8 @@ h3 {
   .Menu h2 {
     font-size: 30px;
     margin: 0 -39% 0 64%;
-    color: #9356DC;
+    font-weight: 700;
+    font-family: "shrikhand", cursive;
   }
   .Menu .Nom {
     border-radius: 0%;
@@ -344,13 +356,12 @@ h3 {
   .Plats {
     display: flex;
     font-family: "Roboto, sans-serif";
-    justify-content: space-between;
     padding-top: 70px;
+    min-width: 100%;
   }
   .PlatsCartes {
-    width: 120%;
     margin: 8% 0 3% 0;
-    width: 357px;
+    min-width: 357px;
     background-color: #C0C0C0;
   }
   .PlatsCartes .circle {
@@ -384,10 +395,13 @@ h3 {
     font-weight: 100;
   }
   .animation-entrees {
-    margin-left: 24%;
+    margin-left: 14%;
   }
   .animation-plat {
-    margin: 0 18%;
+    margin: 0 10%;
+  }
+  .animation-desserts {
+    margin-right: 5%;
   }
   .Btn {
     margin: 10% 93%;
