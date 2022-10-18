@@ -24,6 +24,7 @@
         flex-direction: row;
         justify-content: space-between;
         font-weight: 100;
+        margin-left: 2%;
     }
 }
 
@@ -85,7 +86,8 @@
                 margin-left: auto;
                 padding-right: 5%;
                 font-size: 15px;
-            }  
+            }
+     
         .circle {
             margin-top: -10%;
             padding: 1% 0;
@@ -99,23 +101,32 @@
             align-items: center;
             justify-content: center;
             transition: width 0.5s ease-in-out, opacity 0.5s ease-in-out;
-        }
-        .fa-check-circle {
-            padding: 10px 8px 0 8px;
-            margin: 16px;
-            font-size: 20px;
-            color: white;
-            border-radius: 50%;
-            transition: 0.5s ease-in-out;
-            transform: rotate(360deg);
-        }
-        &:active .circle {
-            width: 64px;
-            opacity: 100%;
-        }     
-        &:active .fa-circle-check {
-            transform: rotate(0deg);
-        }    
-    }           
-       
+        }   
             
+            &:hover .circle {
+                width: 64px;
+                opacity: 100%; 
+                }            
+            &:hover .fa-check-circle {
+                    animation: tour 600ms linear;        
+                }
+            
+                .fa-check-circle {
+                    display: flex;
+                    justify-content: center;
+                    margin: 16px;
+                    font-size: 24px;
+                    color: white;
+                    border-radius: 50%; 
+                }
+            }        
+                @keyframes tour {
+                    from {
+                        transform: rotate(0deg);
+                    }
+                    to {
+                        transform: rotate(360deg);
+                    }
+                
+            }
+        

@@ -49,7 +49,7 @@
   }
     h2 {
       font-size: 23px;
-      margin-left: 6%;
+      margin-left: 5%;
       padding-top: 4%;
       font-weight: 600;
     }
@@ -60,21 +60,35 @@
     flex-direction: column;
     align-items: center;
   
-    & .RestosChoix {
+    .RestosChoix {
       list-style-type: none;
       margin: 6% 3% 0 0;
       padding: 8% 10% 8% 5%;
       border-radius: 25px;
       width: 93%;
       border: 2px solid rgb(245, 245, 245);
-      background-color: rgb(245, 245, 245);
-      box-shadow: 6px 6px 6px rgb(200, 230, 230);
+      background-color: rgb(246, 246, 246);
+      box-shadow: 6px 6px 6px rgb(237, 237, 237);
       position: relative;
       display: flex;
       justify-content: space-evenly;
       font-size: 14px;
       font-weight: bold;
       white-space: nowrap;
+
+      &:hover {
+        background-color: rgb(245, 237, 255);
+        cursor: pointer;
+        .fa-mobile-screen-button {
+          color: #9356DC;
+        }
+        .fa-list {
+          color: #9356DC;
+        }
+        .fa-store{
+          color: #9356DC;
+        }
+      }
     }
     & .RestosChoix:before {
       content: counter(li);
@@ -86,7 +100,7 @@
       background-color: #9356DC;
       color: white;
       position: absolute;
-      left: -10px;
+      left: -10px;  
     }
     & .Choisissez {
       padding-right: 10%;
@@ -95,15 +109,12 @@
     }
     & .fa-mobile-screen-button {
       padding: 0 5%;
-      opacity: 0.5;
       font-size: large;
     }
     & .fa-list {
       font-size: large;
-      opacity: 0.5;
     }
     & .fa-store {
-      color: #9356DC;
       font-size: large;
     }
   }
@@ -113,7 +124,7 @@
     padding: 5% 0;
   
     & .LieuxCartes {
-      margin: 10% auto;
+      margin: 10% -9% 10% -3%;
     }
       & .LieuxCartesImgimg {
         width: 100%;
@@ -142,10 +153,10 @@
         right: 3%;
         transform: translate(-10%, -3%);
         border: 2px solid #99E2D0;
-        color: grey;
+        color: rgb(0, 135, 102);
         font-size: 13px;
-        font-weight: 500;
-        background-color: #99E2D0;
+        font-weight: bold;
+        background-color: rgb(153, 226, 208);
         padding: 1% 2%;
       }
       & .LieuxCartesInfos {
@@ -176,7 +187,6 @@
         padding-right: 5%;
         font-size: 25px;
         color: black;
-        transition: all 2s; 
         @include fa-heart($colorFaHeart); 
     }
   

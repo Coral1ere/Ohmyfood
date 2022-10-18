@@ -13,8 +13,8 @@
     }
 @mixin button {
     &:hover {
-        filter: brightness(120%);
+        opacity: 0.5;
         cursor: pointer;
-        box-shadow: 12px 12px 12px rgb(25, 152, 152);
+        box-shadow: 12px 12px 12px  rgb(207, 207, 207);
       }
 }

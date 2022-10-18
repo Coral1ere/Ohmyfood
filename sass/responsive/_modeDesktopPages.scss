@@ -19,6 +19,9 @@
             padding-left: 246px;
         }
     }
+    main {
+        background-color: #f6f6f6;
+    }
     .LieuxCartesImg {
         width: 650px;
         height: 300px;
@@ -27,7 +30,7 @@
     .Menu {
         width: 40%;
         margin-top: 4%;
-        background-color: white;
+    
         & .fa-heart {
             margin-right: -148%;
             color: black;
@@ -50,7 +53,6 @@
         & .Nom {
         border-radius: 0%;
         margin: 14% 0 0 37%;
-        background-color: white;
         }
     }
     h3 {
@@ -66,7 +68,6 @@
     .PlatsCartes {
         margin: 8% 0 3% 0;
         min-width: 357px;
-        background-color: #C0C0C0;
 
         & .circle {
             font-size: 48px;
@@ -80,14 +81,13 @@
             color: white;
             border-radius: 0;
             transition: 0.5s ease-in-out;
-            transform: rotate(360deg);
         }
         &:hover .circle {
-            width: 112px;
+            width: 64px;
             opacity: 100%;
         }  
         &:hover .fa-circle-check {
-            transform: rotate(0deg);
+            animation: rotations 2s;
         }
     }
         h4 {

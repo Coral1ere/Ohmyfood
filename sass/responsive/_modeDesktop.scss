@@ -37,7 +37,7 @@
     }
     h2 {
         font-size: 29px;
-        margin: 5% 0 0 3%;
+        margin: 5% 0 0 1%;
         display: flex;
         padding: 0;
     }
@@ -101,8 +101,6 @@
         & .LieuxCartesInfos {
             font-size: 16px;
             padding: 11% 0 0 5%;
-            background: linear-gradient(42deg, #9356DC, transparent);
-
             & p {
                 margin-top: -1%;
             }
